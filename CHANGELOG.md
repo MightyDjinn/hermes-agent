@@ -11,3 +11,7 @@
 ## 2026-10-30
 
 - Hardened the profile's Mnemosyne hourly maintenance check so unexpected OS-level subprocess failures are reported as a controlled failure instead of escaping as an uncaught exception.
+
+## 2026-11-03
+
+- Added deterministic characterization coverage for malformed MCP activity names, preserving the station fallback and original tool name.
